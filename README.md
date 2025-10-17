@@ -1,24 +1,19 @@
-# City Weather (Open‑Meteo)
+# Weather Dashboard
 
 ## Overview
-A minimal single-page web app that fetches the current temperature and humidity for any city using the Open‑Meteo public APIs. Built with Bootstrap 5, no backend required.
+A minimal weather dashboard that shows current conditions and a 3-day forecast for any city. Users can toggle between Celsius and Fahrenheit, and small weather icons are displayed for quick visual cues. No API key required.
 
 ## Setup
-- No build steps. Just open index.html in any modern web browser.
-- Internet connection is required to query Open‑Meteo.
+- Download the repository (or this single file export).
+- Open index.html in any modern web browser.
 
 ## Usage
-1. Open index.html.
-2. Enter a city name (e.g., Berlin, Tokyo).
-3. Click "Get Weather" to see the current temperature (°C) and humidity (%).
+- Type a city name (e.g., "London") and click Search.
+- View current temperature, conditions, humidity, wind, and “feels like.”
+- Check the 3-day forecast table below the current section.
+- Toggle units using the °C/°F switch; the dashboard refetches data to reflect the chosen units.
 
-## License
-MIT License
-
-Copyright (c) 2025 Your Name
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+## Improvements from previous version (Round 2)
+- Added a 3-day forecast table beneath the current weather.
+- Introduced a temperature unit toggle (Celsius ⇄ Fahrenheit) that updates current and forecast values.
+- Displayed small weather icons for both current conditions and forecast days.
